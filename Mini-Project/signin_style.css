@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+
+body {
+
+    background-color: rgb(113, 20, 201);
+    font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    margin: 5rem auto; 
+}
+
+
+
+
+
+.container { background-color: white;
+            border-radius: 5px;
+            height: 455px;
+            width: 425px;
+            display: flex;
+            flex-direction: column; 
+            align-content: center;
+            justify-content: center;
+            margin: 4rem auto;   
+            line-height: 15px;
+
+
+
+}
+
+.loginbox {  color: whitesmoke;
+              border: 5px solid ;
+         
+         
+}
+
+form {
+   text-align: center;
+ 
+}
+
+
+
+h2 { font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   text-align: center;
+   color:darkslategrey;
+  
+}
+
+input[type=email] {
+width: 75%;
+padding: 18px 12px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 2px;
+box-sizing: border-box;
+font-size: 14px;
+background-color:#ccc
+
+}
+
+input[type=password] {
+   width: 75%;
+   padding: 18px 12px;
+   margin: 8px 0;
+   display: inline-block;
+   border: 1px solid #ccc;
+   border-radius: 2px;
+   box-sizing: border-box;
+   font-size: 25px;
+   background-color:#ccc
+   }
+   
+   
+   input[type=button] {
+      width: 75%;
+      background-color:rgb(113, 20, 201);
+      color: white;
+      padding: 18px 12px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 2px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+
+    .checkbox {
+      color:lightslategrey;
+      font-size: 14px;
+      font-weight: 350;
+      position: absolute;
+      padding: 0 54px;
+      margin-bottom: 10px;
+      
+   }
+    
+
+ 
+
+
+  
+.fyp{
+   color: lightslategrey;
+   font-size: 16px;
+   text-align: center;
+   font-size: 14px;
+   font-weight: 350;
+  
+   
+}
+

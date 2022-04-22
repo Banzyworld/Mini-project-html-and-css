@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+    }
+
+body{    
+   
+    font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 600;
+}
+
+.flex_container { 
+    display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+    align-items: center;
+    margin-top: 1%;
+
+ 
+}
+
+img {
+   
+     width: 100%;
+     height: 40%;
+    
+
+
+}
+
+
+
+
+header p {
+    letter-spacing: 1px;
+    text-align: center;
+    background: transparent;
+}
+li {
+    padding: 5px;
+}
+
+
+
+
+.item {
+ width: 100px;  
+ height: fit-content;
+ background: white;
+ color: darkslategrey;
+ margin: 10px;
+ 
+ justify-content: space-around;
+ }
+
+
+.design {
+    background-image: url(building.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+ 
+ }
+
+ .service {
+
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+       
+
+ }
+
+header h1  {
+    background: transparent ;
+}
+ 
+
+main h1 {font-size: 55px;
+        word-spacing: 25px;
+        letter-spacing: 10px ;
+        color: white;
+
+}
+main p {
+    color: white;
+
+
+}
+
+
+
+.ul_links {
+    list-style-type: none;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    
+
+}
+
+button {  background-color: transparent;
+   
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+
+   
+  }
+
+  .signin_button {
+    width: 20%;
+    background-color: transparent;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-color: white;
+    margin-top: 3%;
+ 
+
+    
+  }
+    
+
