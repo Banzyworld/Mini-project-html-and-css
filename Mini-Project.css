@@ -21,14 +21,14 @@ body{
  
 }
 
-img {
+
+/* img {
    
      width: 100%;
      height: 40%;
     
 
-
-}
+} */
 
 
 
@@ -51,21 +51,31 @@ li {
  background: white;
  color: darkslategrey;
  margin: 10px;
- 
  justify-content: space-around;
  }
 
 
-.design {
-    background-image: url(building.jpg);
-    background-position: center;
+.designs {
+    background: rgba(0, 0, 0, 0.562) url(image/building.jpg);
+    background-blend-mode: multiply;
+    background-position: top top;
     background-repeat: no-repeat;
+    background-size: cover;
+    height: 85vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    
+    
  
  }
 
  .service {
 
-    position: absolute;
+    /* position: absolute; */
     top: 50%;
     width: 100%;
     text-align: center;
@@ -78,13 +88,13 @@ header h1  {
 }
  
 
-main h1 {font-size: 55px;
+.service h1 {font-size: 55px;
         word-spacing: 25px;
         letter-spacing: 10px ;
         color: white;
 
 }
-main p {
+.service p {
     color: white;
 
 
@@ -97,9 +107,24 @@ main p {
     display:flex;
     justify-content: center;
     text-align: center;
+    text-decoration: none;
     
 
 }
+
+a {
+    text-decoration: none;
+    color:  darkslategrey;
+}
+
+i 
+{
+    font-size: 13px;
+    cursor: pointer;
+}
+
+
+
 
 button {  background-color: transparent;
    
