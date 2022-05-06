@@ -38,7 +38,7 @@ header p {
     text-align: center;
     background: transparent;
 }
-li {
+ li {
     padding: 5px;
 }
 
@@ -112,7 +112,7 @@ header h1  {
 
 }
 
-a {
+ nav li a {
     text-decoration: none;
     color:  darkslategrey;
 }
@@ -139,13 +139,12 @@ button {  background-color: transparent;
    
   }
 
-  .signin_button {
+.signin_button    {
     width: 20%;
     background-color: transparent;
     color: white;
     padding: 15px 32px;
     text-align: center;
-    text-decoration: none;
     display: inline-block;
     font-size: 16px;
     border-color: white;
@@ -154,5 +153,11 @@ button {  background-color: transparent;
 
     
   }
+
+  section button a {
+    color:white;
+    text-decoration: none;
+  }
+
     
 
